@@ -16,4 +16,29 @@
 * Android SDK 23 (6.0 Marshmallow) 及以上
 * 拥有蓝牙组件的Android设备
 
+## 测试环境
+* Device: HUAWEI P9 PLUS
+* OS: Android 8.0 Oreo
+
 ## 屏幕截图
+<img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_1.jpg" width="225" height="400" div=left />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_2.jpg" width="225" height="400" div=center />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_3.jpg" width="225" height="400" div=right />
+
+## 使用说明
+软件请求使用了蓝牙权限和GPS权限，但是GPS权限完全没有使用
+
+1. 安装本软件，可在Release里找到相应的安装包(APK)下载
+2. 运行后，可前往软件内设置页面开启蓝牙模块
+3. 在蓝牙扫描界面选择希望连接的设备，没有配对过的设备此时会提示您配对，已配对过且在信号范围内的设备将会直接连上
+4. 请注意：连接需单方向，即A连接B后，B无需再连接A，否则发送时会使Socket Broken Pipe
+5. 如您希望断开连接，关闭程序或连接其他人即可
+
+## 已知存在的问题
+* 部分手机将扫描到的用户放入了“不常用的用户”中，导致在配对成功以前选择界面无法正常显示该用户，例如小米手机(MIUI)
+* 软件UI设计调试自HUAWEI P9 PLUS(1920*1080)，其他设备在使用时可能存在UI组件错位或遮挡等情况
+
+## 参考文献
+* [蓝牙 | Android Developers](https://developer.android.google.cn/guide/topics/connectivity/bluetooth)
+* [Google Examples/Android-BluetoothChat Sample](https://github.com/googlesamples/android-BluetoothChat)
+
+## 请捐赠打赏投食！！！
+![图片加载失败](https://github.com/50Death/CipheredSocketChat/blob/master/Pictures/%E6%94%AF%E4%BB%98%E5%AE%9D%E7%BA%A2%E5%8C%85.jpg)
