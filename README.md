@@ -21,9 +21,7 @@
 * OS: Android 8.0 Oreo
 
 ## 屏幕截图
-<img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_1.jpg" width="225" height="400" div=left />
-<img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_2.jpg" width="225" height="400" div=center />
-<img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_3.jpg" width="225" height="400" div=right />
+<img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_1.jpg" width="225" height="400" div=left />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_2.jpg" width="225" height="400" div=center />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_3.jpg" width="225" height="400" div=right />
 
 ## 使用说明
 软件请求使用了蓝牙权限和GPS权限，但是GPS权限完全没有使用
