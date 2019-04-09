@@ -19,6 +19,10 @@
 ## 测试环境
 * Device: HUAWEI P9 PLUS
 * OS: Android 8.0 Oreo
+* Device: SAMSUNG Galaxy S10+
+* OS: Android 9.0 Pie
+* 已测试可以连接低功耗蓝牙模块
+
 
 ## 屏幕截图
 <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_1.jpg" width="225" height="400" div=left />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_2.jpg" width="225" height="400" div=center />  <img src="https://github.com/50Death/Bluetooth-QQ/blob/master/Screenshots/Screenshot_3.jpg" width="225" height="400" div=right />
@@ -33,8 +37,10 @@
 5. 如您希望断开连接，关闭程序或连接其他人即可
 
 ## 已知存在的问题
+* 仅适配1920*1080分辨率，其他分辨率可能存在显示不正常情况。
 * 部分手机将扫描到的用户放入了“不常用的用户”中，导致在配对成功以前选择界面无法正常显示该用户，例如小米手机(MIUI)
 * 软件UI设计调试自HUAWEI P9 PLUS(1920*1080)，其他设备在使用时可能存在UI组件错位或遮挡等情况
+* Galaxy S10+无法正常显示未配对的设备，必须在设置里手动配对后再在程序内刷新才能看到，可以点击“信息”按钮快速跳转
 
 ## 参考文献
 * [蓝牙 | Android Developers](https://developer.android.google.cn/guide/topics/connectivity/bluetooth)
